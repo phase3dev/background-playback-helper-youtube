@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h2>Background Play</h2>
+    </header>
+
+    <main>
+      <div class="master-wrap">
+        <div class="setting-row master-row">
+          <div class="label-group">
+            <label for="master-toggle">Enabled</label>
+            <span class="subtext">Turn the extension on or off</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="master-toggle">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div id="controls-section" class="controls-section">
+        <div class="setting-row">
+          <div class="label-group">
+            <label for="fix-toggle">Visibility Fix</label>
+            <span class="subtext">Prevents video pause on tab switch</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="fix-toggle">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="setting-row">
+          <div class="label-group">
+            <label for="alive-toggle">Keep Alive</label>
+            <span class="subtext">Simulates activity to prevent timeouts</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="alive-toggle">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="setting-row method-row">
+          <div class="label-group">
+            <label for="method-select">Method</label>
+            <span class="subtext">Choose how activity is simulated</span>
+          </div>
+          <select id="method-select" class="method-select" aria-label="Keep Alive Method">
+            <option value="keyboard">Keyboard (default)</option>
+            <option value="mouse">Mouse movement</option>
+            <option value="alternate">Both (alternate)</option>
+          </select>
+        </div>
+
+        <div class="setting-row">
+          <div class="label-group">
+            <label for="dismiss-toggle">Stop Video Pause</label>
+            <span class="subtext">Prevents video pausing and closes confirmations (YouTube + YouTube Music)</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="dismiss-toggle">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <button id="reset-btn" class="reset-btn" type="button">Reset to defaults</button>
+      <p class="footer-note">Changes apply immediately.</p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
