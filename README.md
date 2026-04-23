@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="./background-playback-helper/icons/icon128.png" alt="Background Playback Helper Logo" width="128"/>
-  <br/>
+  <img src="./repo_assets/bph-icon.png" srcset="./repo_assets/bph-icon@2x.png 2x" alt="Background Playback Helper icon"
+    width="128" />
+  <br />
   <h1>Background Playback Helper (YouTube & Vimeo)</h1>
  <p>
   <a href="https://addons.mozilla.org/en-US/firefox/addon/playback-helper-youtube-vimeo/"><img src="https://img.shields.io/amo/v/playback-helper-youtube-vimeo?label=Firefox%20Add-on&logo=firefox&logoColor=white&color=FF7139" alt="Firefox Add-on"/></a>&nbsp;<a href="https://addons.mozilla.org/en-US/firefox/addon/playback-helper-youtube-vimeo/"><img src="https://img.shields.io/amo/users/playback-helper-youtube-vimeo?label=Users&color=brightgreen" alt="Users"/></a>&nbsp;<a href="https://addons.mozilla.org/en-US/firefox/addon/playback-helper-youtube-vimeo/"><img src="https://img.shields.io/amo/rating/playback-helper-youtube-vimeo?label=Rating&color=brightgreen" alt="Rating"/></a>&nbsp;<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"/></a>
