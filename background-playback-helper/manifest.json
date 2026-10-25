@@ -10,7 +10,11 @@
   "host_permissions": [
     "*://*.youtube.com/*",
     "*://*.youtube-nocookie.com/*",
-    "*://*.vimeo.com/*"
+    "*://*.vimeo.com/*",
+    "*://*.rutube.ru/*",
+    "*://*.dzen.ru/*",
+    "*://*.instagram.com/*",
+    "*://*.tiktok.com/*"
   ],
   "icons": {
     "48": "icons/icon48.png",
@@ -33,7 +37,11 @@
       "matches": [
         "*://*.youtube.com/*",
         "*://*.youtube-nocookie.com/*",
-        "*://*.vimeo.com/*"
+        "*://*.vimeo.com/*",
+        "*://*.rutube.ru/*",
+        "*://*.dzen.ru/*",
+        "*://*.instagram.com/*",
+        "*://*.tiktok.com/*"
       ],
       "js": [
         "visibility-main.js"
@@ -46,7 +54,11 @@
       "matches": [
         "*://*.youtube.com/*",
         "*://*.youtube-nocookie.com/*",
-        "*://*.vimeo.com/*"
+        "*://*.vimeo.com/*",
+        "*://*.rutube.ru/*",
+        "*://*.dzen.ru/*",
+        "*://*.instagram.com/*",
+        "*://*.tiktok.com/*"
       ],
       "js": [
         "content.js"
