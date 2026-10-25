@@ -15,7 +15,7 @@
 if (window.top !== window) {
   // Do nothing in iframes
 } else {
-  const SITES = ["youtube.com", "youtube-nocookie.com", "vimeo.com"];
+  const SITES = ["youtube.com", "youtube-nocookie.com", "vimeo.com", "rutube.ru", "dzen.ru", "instagram.com", "tiktok.com"];
 
   const DEFAULTS = {
     enabled: true,
